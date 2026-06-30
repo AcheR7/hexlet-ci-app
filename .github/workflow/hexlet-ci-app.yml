@@ -15,6 +15,7 @@ jobs:
       - run: npm install
 		# Установка билда
       - run: make setup
+      - run: make start
       # Запуск тестов
       - name: run tests
         run: make test
